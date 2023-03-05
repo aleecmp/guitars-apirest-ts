@@ -20,7 +20,7 @@ app.use(
 );
 
 db().then(() => {
-  console.log('Conecction succefully');
+  console.log('Connection succefully');
 });
 
 app.listen(PORT, () => {
